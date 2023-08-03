@@ -37,9 +37,9 @@
                       <td>{{ $user->name }}</td>
                       <td>{{ $user->email }}</td>
                       <td>
-                        @if($user->role_id === 1)
+                        @if($user->role == 1)
                           <span class="badge badge-danger">Administrator</span>
-                        @elseif($user->role_id === 2)
+                        @elseif($user->role == 2)
                           <span class="badge badge-warning">Supervisor</span>
                         @else
                           <span class="badge badge-secondary">Trainee</span>

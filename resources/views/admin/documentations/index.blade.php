@@ -1,4 +1,10 @@
 @extends('layouts.admin')
 @section('content')
+<style>
+    h1
+    {
+        text-align:center;
+    }
+</style>
 <h1>Documentations</h1>
 @endsection
