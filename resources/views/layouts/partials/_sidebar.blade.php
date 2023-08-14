@@ -27,6 +27,7 @@
 <li class="nav-item">
                 <a class="nav-link" href="{{ route('diaries.index') }}">
                 <i class="fas fa-solid fa-address-book"></i>
+                
                     <span>Diaries</span></a>
             </li>
 

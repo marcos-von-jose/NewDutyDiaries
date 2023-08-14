@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Documentation extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'author_id',
+        'image',
+        'caption',
+    ];
 }

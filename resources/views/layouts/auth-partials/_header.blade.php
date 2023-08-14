@@ -22,5 +22,12 @@
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
-
+<style>
+    .custom-login-image
+    {
+        background-image: url('img/duty diary.png');
+        background-size: cover;
+        background-position: center;
+    }
+</style>
 <body class="bg-dark gray">

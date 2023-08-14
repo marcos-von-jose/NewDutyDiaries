@@ -40,7 +40,7 @@
             </div>
             <div class="card-footer">
                 <button type="submit" class="btn btn-success btn-sm">Update</button>
-                <a href="{{ route('users.index') }}" class="btn btn-secondary btn-sm">Cancel</a>
+                <a href="{{ route('users.index') }}" class="btn btn-danger   btn-sm">Cancel</a>
             </div>
         </form>
     </div>

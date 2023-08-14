@@ -2,7 +2,7 @@
  <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Duty Diary 2023</span>
+                        <span>Copyright &copy; Duty Diary 2023 Hand crafted by Marcos Von Jose with the help of Sir Francis.</span>
                     </div>
                 </div>
             </footer>
