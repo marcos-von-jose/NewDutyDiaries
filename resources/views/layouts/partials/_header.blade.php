@@ -10,6 +10,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <!-- Data Tables cdn -->
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
     {{-- Dropify --}}
@@ -44,15 +46,18 @@
 
     {{-- LightBox --}}
     <link rel="stylesheet" href="{{ asset('css/lightbox.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
 
     {{-- TinyMCE --}}
     <script src="https://cdn.tiny.cloud/1/f91h8ob9cbvkiqq7t8c04i5g7mpzus8bufl7tdxkfq8cydqj/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
 
     {{-- Custom CSS --}}
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
+
+    
 </head>
     
-    <!-- <style>
+    <style>
         #wrapper .sidebar{
             width: 20%!important;
         }
@@ -65,7 +70,8 @@
         #wrapper #content-wrapper{
             height: 100vh;
         }
-    </style> -->
+    </style>
+    
 </head>
 
 

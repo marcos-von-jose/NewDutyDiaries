@@ -38,7 +38,6 @@ class DiariesController extends Controller
         };
         
         return view('admin.diaries.index');
-        return view('index', compact('diaries'));
     }
 
     /**

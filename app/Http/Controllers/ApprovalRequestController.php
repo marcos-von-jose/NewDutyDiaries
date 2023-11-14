@@ -19,7 +19,7 @@ class ApprovalRequestController extends Controller
     {
         // dd(request()->ajax());
         if(request()->ajax()){
-            // dd(Auth::user()->role_id);
+            //dd(Auth::user()->role_id);
             if(Auth::user()->role_id == 1){
                 $diaries = Diary::all();
                 return $this->generateDatatables($diaries);

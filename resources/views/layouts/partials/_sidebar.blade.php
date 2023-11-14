@@ -40,7 +40,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{route('approval_request.index')}}">
                 <i class="fas fa-solid fa-thumbs-up"></i>
-                    <span>Apprval Request</span></a>
+                    <span>Approval Request</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('users.index') }}">

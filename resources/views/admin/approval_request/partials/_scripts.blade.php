@@ -33,7 +33,7 @@
                             confirmButtonText: 'Okay'
                         }).then((result) => {
                             if (result.isConfirmed) {
-                                $('#approval_request-table').DataTable().ajax.reload();
+                                $('#approval-requests-table').DataTable().ajax.reload();
                             }
                         })
                     },
